@@ -1,0 +1,53 @@
+Trabajos_Investigacion {
+        ID_Trabajo int PK
+        Titulo varchar(80)
+        Autor varchar(80)
+        Fecha_Publicacion date
+        Resumen text 
+        Palabras_Clave text 
+        Tipo_Documento enum 
+        Grado_Academico enum 
+        Facultad varchar(80)
+        Area_Conocimiento varchar(80)
+    }
+    Autores {
+        Matricula Int PK
+        Nombre varchar(80)
+        Apellido varchar(80)
+        Correo_Electronico varchar(100)
+    }
+    Facultades {
+        varchar Facultad PK
+        varchar Nombre_Facultad
+    }
+    Areas_Conocimiento {
+        int ID_Area PK
+        varchar Nombre_Area
+    }
+    Palabras_Clave {
+        int ID_Clave PK
+        varchar Palabra_Clave
+    }
+
+
+
+
+
+•	Wikipedia. (2024, abril 14). DSpace. En Wikipedia. https://es.wikipedia.org/wiki/DSpace 
+•	El Boli. (2022, 23 de junio). 3 ¿Qué es el proceso ETL? YouTube. https://www.youtube.com/watch?v=FO7nScExZjA
+•	KeepCoding- Teach School. (2022, 7 de junio). ¿Cómo funciona la Fase de extracción? YouTube. https://www.youtube.com/watch?v=miOTJVrUqss
+•	AWS. (2023).  ¿Qué es ETL? https://aws.amazon.com/es/what-is/etl/
+•	Diego Santos. (2023).  Qué es ETL: definición, proceso y herramientas. https://blog.hubspot.es/marketing/que-es-etl
+•	IBM. (2023).  ¿Qué es ETL? https://www.ibm.com/mx-es/topics/etl
+•	IBM. (2021, 14 de diciembre).  ETL vs. ELT: What´s the Difference? https://www.ibm.com/blog/elt-vs-etl-whats-the-difference/
+•	R y analítica en español con el profe Julio Alonso. (2020, 21 de septiembre). Limpieza de datos. YouTube. https://www.youtube.com/watch?v=V2uXaKTIWv4
+•	Codificando Bits. (2022, 21 de octubre). Tutorial: LIMPIEZA DE DATOS con Python y Pandas. YouTube. https://www.youtube.com/watch?v=bGnD1Ki7j-g
+•	A2 Capacitación: Excel. (2023, 2 de mayo). Limpia tus datos en Excel como todo un experto. YouTube. https://www.youtube.com/watch?v=xDewMBOd1S8
+•	Diego Santos. (19 de enero 2023).  Data cleansing: qué es la limpieza de datos y cómo realizarla. Hubspot. https://blog.hubspot.es/marketing/limpieza-de-datos
+•	CULTA. (2016).  Metodología de limpieza de datos con la herramienta de OpenRefine http://www.visualix.mx/files/5eb360388714341c277936ecb036e370.pdf
+●	JMP. (2023).  Gráfico de dispersión. Recuperado de https://www.jmp.com/es_mx/statistics-knowledge-portal/exploratory-data-analysis/scatter-plot.html 
+●	Betancourt, D. (2016).  Cómo hacer un diagrama de dispersión: Ejemplo en calidad. Recuperado de https://www.ingenioempresa.com/diagrama-de-dispersion/
+●	Catálogo de Visualización de Datos. (2023). Gráfico de densidad. Recuperado de https://datavizcatalogue.com/ES/metodos/grafico_de_densidad.html
+●	QA Stack. (2023).  Cómo interpretar la altura de la gráfica de densidad. Recuperado de https://qastack.mx/stats/147885/how-to-interpret-height-of-density-plot
+●	Matemático Compulsivo. (2018, 26 de abril). Ciclo Tendencia y Estacionalidad en una serie temporal. Recuperado de https://www.youtube.com/watch?v=sElUwI-qeIc
+●	Edgar Blanco. (2020, 4 de septiembre). Diagrama de densidad en Excel. Recuperado de YouTube. https://www.youtube.com/watch?v=KsdrkjqyZLI 
